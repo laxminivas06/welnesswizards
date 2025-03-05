@@ -1,0 +1,6 @@
+[build]
+  command = "vite build"
+  publish = "dist"
+
+[context.production.environment]
+  GO_VERSION = "1.19"
